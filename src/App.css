@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Yesteryear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+* {
+  margin: 0;
+}
+
+.App {
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  background: linear-gradient(180deg, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 53%, rgba(255, 116, 122, 1) 82%, rgba(249, 239, 110, 1) 100%);
+  width: 100%;
+  height: fit-content;
+  background-repeat: no-repeat;
+
+}
+
+.main_head {
+  padding: 15px;
+  font-family: 'Yesteryear', cursive;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.link_cont {
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.cards_list_container {
+  display: flex;
+  -ms-flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.main_container {
+  margin: 20px 160px 20px 160px;
+}
+
+.link_text {
+  padding: 10px;
+}
+
+.searchCont {
+  margin: 15px;
+}
+
+.search_input {
+  padding: 10px;
+}
+
+.search_btn {
+  padding: 12px;
+  width: 100px;
+  border: none;
+  background-color: #207398;
+  color: #ffffff;
+  margin-left: 5px;
+
+}
+
+@media only screen and (max-width: 600px) {
+  .main_container {
+    margin: 5px 5px 5px 5px;
+  }
+}
